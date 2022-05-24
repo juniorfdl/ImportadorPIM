@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\BKP Elvio\\Cursos\\DotNet\\WorkerService\\WorkerImportadorPIM\\WorkerImportadorPIM.csproj": {}
+  },
+  "projects": {
+    "C:\\BKP Elvio\\Cursos\\DotNet\\WorkerService\\WorkerImportadorPIM\\WorkerImportadorPIM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\BKP Elvio\\Cursos\\DotNet\\WorkerService\\WorkerImportadorPIM\\WorkerImportadorPIM.csproj",
+        "projectName": "WorkerImportadorPIM",
+        "projectPath": "C:\\BKP Elvio\\Cursos\\DotNet\\WorkerService\\WorkerImportadorPIM\\WorkerImportadorPIM.csproj",
+        "packagesPath": "C:\\Users\\elvio.junior\\.nuget\\packages\\",
+        "outputPath": "C:\\BKP Elvio\\Cursos\\DotNet\\WorkerService\\WorkerImportadorPIM\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elvio.junior\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "http://artifactory.softplan.com.br/artifactory/api/nuget/v3/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
